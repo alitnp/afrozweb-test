@@ -1,0 +1,58 @@
+.board-card {
+	display: flex;
+	align-items: center;
+}
+
+.board-card .image-wrapper {
+	width: 230px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.board-card img {
+	height: 400px;
+}
+
+.board-card .rectangle {
+	position: absolute;
+	background-color: #ececec;
+	width: 100%;
+	height: 60%;
+	bottom: 0;
+	z-index: -1;
+}
+
+.board-card .image.rectangle {
+	background-color: #ececec;
+}
+
+.board-card .text {
+	height: 100%;
+	padding-top: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.board-card .text .titles {
+	margin-left: -40px;
+	text-align: left;
+}
+
+.board-card .text .titles p:first-child {
+	font-family: poppins;
+	font-size: 0.75rem;
+	color: #7a7a7a;
+}
+
+.board-card .text p:nth-child(2) {
+	color: var(--secondary-color);
+	font-size: 1.25rem;
+	margin-left: 1rem;
+}
+
+.board-card .text p:nth-child(3) {
+	margin-left: 1rem;
+	margin-top: 0.5rem;
+}

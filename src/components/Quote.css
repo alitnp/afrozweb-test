@@ -1,0 +1,19 @@
+.quote {
+	padding: 0 20%;
+	padding-top: 10rem;
+	text-align: center;
+	color: var(--text-semiblack);
+}
+
+.quote .text {
+	font-family: playfaireDisplay;
+	font-size: 1.626rem;
+}
+
+.quote .vertical-line {
+	border: 1px solid var(--main-color);
+	width: 0;
+	height: 5.25rem;
+	margin: 0 auto;
+	margin-top: 2rem;
+}

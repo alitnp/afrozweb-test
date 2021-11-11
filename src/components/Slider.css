@@ -1,0 +1,102 @@
+.slider {
+	position: relative;
+}
+
+.slider .verticle {
+	width: 2rem;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	right: -3rem;
+}
+
+.slider .verticle p {
+	transform: rotate(90deg);
+	white-space: nowrap;
+	font-family: leagueSpartan;
+	opacity: 20%;
+	font-size: 0.5615rem;
+	letter-spacing: 0.25rem;
+	margin-top: -3rem;
+}
+.slider .icons-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.slider .icons-wrapper img {
+	width: 16px;
+	height: 16px;
+	object-fit: contain;
+	margin-top: 1rem;
+}
+
+.slider .picture-wrapper {
+	position: absolute;
+	z-index: -1;
+	right: 0;
+	width: 100%;
+	direction: rtl;
+	display: flex;
+}
+
+.slider .image {
+	width: 85%;
+	height: 520px;
+	object-fit: cover;
+}
+
+.slider .slider-navigator {
+	width: 15%;
+	margin-top: auto;
+	direction: ltr;
+	font-family: leagueSpartan;
+	font-size: 0.625rem;
+	display: flex;
+	align-items: center;
+}
+
+.slider .slider-navigator img {
+	height: 1rem;
+}
+
+.slider .slider-navigator img:last-child {
+	transform: rotate(180deg);
+}
+
+.slider .slider-navigator span:nth-child(2) {
+	color: var(--main-color);
+	margin-left: 1rem;
+}
+.slider .slider-navigator span:nth-child(3) {
+	color: var(--text-gray);
+	margin: 0 0.5rem;
+}
+.slider .slider-navigator span:nth-child(4) {
+	color: var(--text-black);
+	margin-right: 1rem;
+}
+
+.slider .text-wrapper {
+	height: 520px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.slider .text-wrapper * {
+	margin: 0;
+}
+
+.slider .mini-title {
+	color: var(--main-color);
+	font-family: leaguespartan;
+	font-size: 0.625rem;
+	letter-spacing: 0.325rem;
+}
+
+.slider .text {
+	width: 400px;
+}

@@ -1,0 +1,34 @@
+.footer {
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer .logo {
+	height: 40px;
+	margin: 0 auto;
+}
+
+.footer .navigation {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.footer .navigation li {
+	padding: 0 2rem;
+	font-family: leagueSpartan;
+	font-size: 0.6515rem;
+	letter-spacing: 0.25rem;
+}
+
+.footer .icons-wrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+
+.footer .icons-wrapper img {
+	margin: 0 2rem;
+}

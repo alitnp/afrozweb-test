@@ -1,0 +1,38 @@
+.article2 {
+	display: flex;
+	justify-content: center;
+	padding-top: 3rem;
+	padding-bottom: 6rem;
+}
+
+.article2 .text-wrapper {
+	width: 35%;
+}
+
+.article2 .text-wrapper .text {
+	color: var(--text-gray);
+	margin: 3rem 0;
+}
+
+.article2 .image-wrapper {
+	height: 400px;
+	width: 40%;
+	position: relative;
+	margin-right: 4rem;
+}
+
+.article2 img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.article2 .image-wrapper .image-caption {
+	position: absolute;
+	transform: rotate(-90deg);
+	top: 5rem;
+	left: -6rem;
+	opacity: 20%;
+	font-family: leagueSpartan;
+	font-size: 0.5625rem;
+	letter-spacing: 0.5rem;
+}

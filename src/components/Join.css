@@ -1,0 +1,56 @@
+.join {
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	position: relative;
+}
+
+.join .bg-image {
+	position: absolute;
+	z-index: -1;
+	width: calc(100vw - 20px);
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	top: 50%;
+	opacity: 5%;
+}
+
+.join .vertical-line {
+	width: 0;
+	height: 5rem;
+	border: 1px solid var(--main-color);
+	margin: 0 auto;
+}
+
+.join .text {
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	margin-top: 3rem;
+}
+
+.join .text p {
+	color: var(--text-gray);
+}
+
+.join .input-wrapper {
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 2rem;
+}
+
+.join .input-wrapper button {
+	flex-shrink: 0;
+	height: 50px;
+	width: 50px;
+	border: none;
+	outline: none;
+	background-color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.join .input-wrapper button img {
+	transform: rotate(180deg);
+}

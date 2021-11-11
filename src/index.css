@@ -1,13 +1,91 @@
+@font-face {
+	font-family: leaguespartan;
+	src: url("./asset/fonts/LeagueSpartan-Bold.otf");
+}
+@font-face {
+	font-family: playfairDisplay-bold;
+	src: url("./asset/fonts/PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+	font-family: playfairDisplay;
+	src: url("./asset/fonts/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+	font-family: poppins;
+	src: url("./asset/fonts/Poppins-Light.ttf");
+	font-weight: 300;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: poppins, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: var(--text-black);
+	font-size: 16px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--main-color: #5da8ef;
+	--secondary-color: #ce60a8;
+	--text-black: #0b0c11;
+	--text-semiblack: #333333;
+	--text-gray: #8f8f8f;
+	--faded-text: #f7f7f7;
+	--input-background: #f5f5f5;
+	--input-placeholder: #333333;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.global-container {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.global-h1 {
+	font-family: playfairDisplay-bold;
+	font-weight: bold;
+	font-size: 3.875rem;
+	padding-bottom: 1rem;
+	padding-top: 0.4rem;
+}
+.global-h2 {
+	font-family: playfairDisplay-bold;
+	font-weight: bold;
+	font-size: 2.625rem;
+	padding-bottom: 1rem;
+	padding-top: 0.4rem;
+}
+
+.global-body-text {
+	font-family: poppins;
+	font-weight: 300;
+	font-size: 0.875rem;
+	color: var(--text-gray);
+}
+
+.global-small-title {
+	font-family: leagueSpartan;
+	font-size: 0.562rem;
+	letter-spacing: 0.25rem;
+	width: fit-content;
+}
+
+.global-elevate-shadow {
+	box-shadow: -20px 30px 65px rgba(11, 12, 17, 0.2);
+}
+
+.test {
+	border: 1px solid black;
 }

@@ -1,0 +1,43 @@
+.get-in-touch {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3rem 0;
+
+	display: flex;
+}
+
+.get-in-touch img {
+	width: 50%;
+	height: 400px;
+	object-fit: cover;
+}
+.get-in-touch .text-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 3rem;
+}
+
+.get-in-touch .text-wrapper .mini-title {
+	font-family: leagueSpartan;
+	font-size: 0.6512rem;
+	opacity: 27%;
+	letter-spacing: 0.25rem;
+}
+
+.get-in-touch .text-wrapper .adress {
+	font-family: playfairDisplay-bold;
+	font-size: 2rem;
+	margin: 2rem 0;
+	margin-left: 2rem;
+}
+
+.get-in-touch .text-wrapper .link {
+	color: var(--main-color);
+	font-family: leagueSpartan;
+	font-size: 0.6512rem;
+	letter-spacing: 0.5rem;
+	border-bottom: 2px solid var(--main-color);
+	width: fit-content;
+}

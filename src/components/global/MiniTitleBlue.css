@@ -1,0 +1,6 @@
+h6 {
+	color: var(--main-color);
+	font-family: leaguespartan;
+	font-size: 0.625rem;
+	letter-spacing: 0.325rem;
+}

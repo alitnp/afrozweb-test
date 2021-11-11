@@ -1,0 +1,20 @@
+.article-title {
+	position: relative;
+}
+
+.article-title .number {
+	z-index: -1;
+	color: var(--faded-text);
+	font-family: leagueSpartan;
+	font-size: 8.125rem;
+}
+
+.article-title .title {
+	position: absolute;
+	bottom: 0;
+}
+
+.article-title .underlline {
+	width: 2rem;
+	border: 1px solid var(--main-color);
+}
