@@ -27,10 +27,44 @@
 
 .video .player {
 	width: 50%;
+	height: 520px;
 	direction: rtl;
+	position: relative;
+}
+
+.video .player .play-button-wrapper {
+	position: absolute;
+	width: 68px;
+	width: 120%;
+	height: 100%;
+	top: 3rem;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video .player .play-button-wrapper .play-button {
+	width: 68px;
+	height: 68px;
+	background-color: var(--main-color);
+	border-radius: 35px;
+	display: flex;
+	position: relative;
+}
+
+.video .player .play-button-wrapper .play-button img {
+	width: 16px;
+	height: 20px;
+	object-fit: contain;
+	position: absolute;
+	left: 28px;
+	top: -22px;
 }
 
 .video .player img {
 	width: 120%;
 	margin-top: 3rem;
+	height: 100%;
+	object-fit: cover;
 }

@@ -23,6 +23,7 @@
 .article1 img {
 	width: 100%;
 	object-fit: cover;
+	height: 400px;
 }
 
 .article1 .image-wrapper .image-caption {
